@@ -79,7 +79,7 @@ def autoRun():
     for x in vgaGrep:
         #val = x.split('[', 1)[1].split(']')
         a = "aaaa"  # aaaaaaaa?
-        val = re.findall('\[.*?\]', x)
+        val = re.findall(r'\[.*?\]', x)
         vgaGrepT.append(val)
     gpuList = open("resources/gpuList.json")
     data = json.load(gpuList)
