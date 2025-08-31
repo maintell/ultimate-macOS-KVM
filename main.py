@@ -57,6 +57,7 @@ runs = 0
 apFilePath = ""
 procFlow = 1
 discordRPC = 1
+debug = 0
 
 baseSystemNotifArmed = False
 
@@ -76,6 +77,7 @@ projectVer = "Powered by ULTMOS v"+version
 if os.path.exists("./UPGRADEPATH"): os.system("rm ./UPGRADEPATH")
 if os.path.exists("./VERSION"): os.system("rm ./VERSION") 
 if os.path.exists("./resources/WEBVERSION"): os.system("rm ./resources/WEBVERSION")
+if os.path.exists("./internal"): debug = 1
 
 def startup():
     global detectChoice
@@ -245,7 +247,7 @@ def startup():
     print(color.END+"      3. Compatibility checks...")
     print(color.END+"      4. Passthrough tools...\n")
     
-    
+    if debug == 1: print(color.END+color.BOLD+color.GREEN+"      D. DEBUG TOOLS..."+color.END)
     print(color.END+"      E. Extras...")
     print(color.END+"      W. What's new?")
     print(color.END+"      U. Check for updates")
@@ -399,6 +401,9 @@ elif detectChoice == "w" or detectChoice == "W":
 elif detectChoice == "u" or detectChoice == "U":
     clear()
     os.system('./scripts/repo-update.py --menuFlow')
+elif detectChoice == "d" and debug == 1 or detectChoice == "D" and debug == 1:
+    clear()
+    os.system('./scripts/extras/debug.py')
 elif detectChoice == "b" and VALID_FILE == 1 or detectChoice == "B" and VALID_FILE == 1:
     clear()
 
