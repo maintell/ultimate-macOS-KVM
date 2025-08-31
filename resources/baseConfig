@@ -77,7 +77,7 @@ args=(
 -usb -device usb-kbd -device usb-tablet 
 #USB_DEV_BEGIN
 #USB_DEV_END
--smp "$CPU_THREADS",cores="$CPU_CORES",sockets="$CPU_SOCKETS"
+-smp threads="$CPU_THREADS",cores="$CPU_CORES",sockets="$CPU_SOCKETS"
 -device pcie-root-port,bus=pcie.0,slot=1,x-speed=16,x-width=32
 #VFIO_DEV_BEGIN
 #VFIO_DEV_END

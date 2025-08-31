@@ -1,6 +1,6 @@
 <p align="center"><a href="https://coopydood.github.io/ultimate-macOS-KVM"><img src="https://github.com/Coopydood/ultimate-macOS-KVM/blob/dev/resources/images/bannerAlphaBasicPortrait.png?raw=true" alt="Logo" width="250"/></a></p>
 
-<h2 align="center">v0.13.3</h2>
+<h2 align="center">v0.13.4</h2>
 
 <p align="center">Helping you build the ultimate macOS virtual machine, powered by KVM.</p>
 
@@ -14,7 +14,7 @@
 
 ***
 
-<img align="left" width="100" height="100" src="https://github.com/user-attachments/assets/4c04c6ea-1b60-4269-aeb2-68f9ee0effa7">
+<img align="left" width="120" height="120" src="https://github.com/user-attachments/assets/7e2f709b-03f8-44d7-b48f-cb7a2298050a">
 <img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=153 width=2 />
 
 <h3>macOS Tahoe Beta Support<br><sub>Available Now</sub></h3>
@@ -45,7 +45,7 @@ You might be new to QEMU/KVM, or a long-time veteran - either way, this project 
 Scripts? Configs? QEMU arguments? A *"qcow"* file? *Moo?* If you need a little help wrapping your head around this stuff, feel free to check out the [FAQs](https://github.com/Coopydood/ultimate-macOS-KVM/wiki/FAQs) for some quick knowledge on the basics.
 
 <br>
-<img src="https://github.com/user-attachments/assets/b82df403-d767-4bce-be5a-9654d67aeef7" alt="ultimate-macOS-KVM" width="1400"/>
+<img src="https://github.com/user-attachments/assets/fe44511b-2662-46f1-94b7-7d534d1ab4d9" alt="ultimate-macOS-KVM" width="1400"/>
 
 <br>
 <p align="center"><i>The latest macOS Tahoe developer beta running on ULTMOS.</i></p>
