@@ -2,7 +2,7 @@
 # pylint: disable=C0301,C0116,C0103,R0903
 
 # AUTOPILOT BY COOPYDOOD
-# (c) Copyright Coopydood 2022-2024
+# (c) Copyright Coopydood 2022-2025
 
 """
 This script was created by Coopydood as part of the ultimate-macOS-KVM project.
@@ -71,7 +71,7 @@ latestOSVer = "26"
 runs = 0
 
 ###############################
-FEATURE_LEVEL = 10                   # DO NOT CHANGE - WILL BREAK THINGS!
+FEATURE_LEVEL = 11                   # DO NOT CHANGE - WILL BREAK THINGS!
 ###############################
 
 enableLog = True
@@ -300,6 +300,11 @@ def startup():
       print("\n   "+"  "+color.BOLD+"───────────────────────────────────────────────────────────────────",color.END)
       print("   "+color.BOLD+color.YELLOW+"   ⚠ "+color.END+color.BOLD+" LOGGING DISABLED"+color.END)
       print("   "+color.END+"      The logfile has been disabled. \n         No diagnostic information will be recorded."+color.END)
+      print("   "+"  "+color.BOLD+"───────────────────────────────────────────────────────────────────",color.END)
+   elif newGenDialogs == 0:
+      print("\n   "+"  "+color.BOLD+"───────────────────────────────────────────────────────────────────",color.END)
+      print("   "+color.BOLD+color.YELLOW+"   ⚠ "+color.END+color.BOLD+" NEW DIALOGS DISABLED"+color.END)
+      print("   "+color.END+"      The new file dialog GUIs have been disabled. \n         Manual file path entry will be used instead."+color.END)
       print("   "+"  "+color.BOLD+"───────────────────────────────────────────────────────────────────",color.END)
 
       #print(color.YELLOW+"\n   ⚠"+color.END+color.BOLD+" WARNING"+color.END)
@@ -1091,7 +1096,7 @@ def autopilot():
             print(color.BOLD+color.PURPLE+"\n   Using filesystem dialog..."+"\n   "+color.END)
             cpydLog("info",str("New gen dialogs enabled, using GUI filepicker"))
             Tk().withdraw() 
-            customInput = askopenfilename()
+            customInput = askopenfilename(master=None, filetypes=[("macOS Recovery image", ".dmg .img")],title="Select macOS Recovery image...")
             if len(customInput) < 3:
                cpydLog("error",str("Never received a response from the GUI dialog! Did we break? Falling back!"))
                customValue = 0
@@ -1660,7 +1665,7 @@ def autopilot():
             print(color.BOLD+color.PURPLE+"\n   Using filesystem dialog..."+"\n   "+color.END)
             cpydLog("info",str("New gen dialogs enabled, using GUI filepicker"))
             Tk().withdraw() 
-            customInput = askopenfilename()
+            customInput = askopenfilename(master=None, filetypes=[("Virtual hard disk files", ".qcow2 .img")],title="Select virtual HDD file...")
             if len(customInput) < 3:
                cpydLog("error",str("Never received a response from the GUI dialog! Did we break? Falling back!"))
                customValue = 0
