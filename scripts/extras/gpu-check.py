@@ -36,8 +36,8 @@ parser.add_argument("-f", "--force", dest="forceModel", metavar="<model>", help=
 args = parser.parse_args()
 
 detectChoice = 1
-latestOSName = "Sequoia"
-latestOSVer = "15"
+latestOSName = "Tahoe"
+latestOSVer = "26"
 runs = 0
 
 
