@@ -1,6 +1,6 @@
 <p align="center"><a href="https://coopydood.github.io/ultimate-macOS-KVM"><img src="https://github.com/Coopydood/ultimate-macOS-KVM/blob/dev/resources/images/bannerAlphaBasicPortrait.png?raw=true" alt="Logo" width="250"/></a></p>
 
-<h2 align="center">v0.13.4</h2>
+<h2 align="center">v0.14.0</h2>
 
 <p align="center">Helping you build the ultimate macOS virtual machine, powered by KVM.</p>
 
@@ -17,21 +17,13 @@
 <img align="left" width="120" height="120" src="https://github.com/user-attachments/assets/7e2f709b-03f8-44d7-b48f-cb7a2298050a">
 <img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=153 width=0/>
 
-<h3>macOS Tahoe Beta Support<br><sub>Available Now</sub></h3>
+<h3>macOS Tahoe Support<br><sub>Available Now</sub></h3>
 
-macOS Tahoe has not yet been tested extensively, but it has been **confirmed to install and boot with the current version of ULTMOS** on the latest macOS developer beta.
-
-<br>
-
-**AutoPilot now has an additional option for macOS Tahoe beta!** <br>Please feel free to try out the macOS Tahoe beta with ULTMOS and leave feedback on how it went! 
-
-However, you should **NOT** use macOS Tahoe as your main virtual setup - and should be used for test purposes only. You have been warned!
-
-You can download the latest recovery image below for use with AutoPilot. The file is hosted on the [Archive.org website](https://archive.org/details/macos-tahoe).
+macOS Tahoe has not yet been tested extensively, but it has been **confirmed to install and boot with the current version of ULTMOS** on the latest macOS release.
 
 <br>
 
-<p align="center"><a href="https://archive.org/download/macos-tahoe/Latest/BaseSystem.dmg"><img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/a8f1cb8f-5ddd-45cc-8598-032180035607" height="38"></a><br><sub> <b>BaseSystem.dmg</b> (1.4 GB)<br>Or, you can also download the <a href="https://archive.org/download/macos-tahoe/macos-tahoe_archive.torrent">torrent</a>.</sub></p>
+**AutoPilot now has an additional option for macOS Tahoe!** <br>Please feel free to try out the macOS Tahoe with ULTMOS and leave feedback on how it went! 
 
 
 ***
@@ -48,7 +40,7 @@ Scripts? Configs? QEMU arguments? A *"qcow"* file? *Moo?* If you need a little h
 <img src="https://github.com/user-attachments/assets/f7530bd9-fe3a-44b6-b913-45ffd097072b" alt="ultimate-macOS-KVM" width="1400"/>
 
 <br>
-<p align="center"><i>The latest macOS Tahoe developer beta running on ULTMOS.</i></p>
+<p align="center"><i>macOS Tahoe running on ULTMOS.</i></p>
 
 ***
 
