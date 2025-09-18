@@ -14,7 +14,7 @@
 
 ***
 
-<img align="left" width="120" height="120" src="https://github.com/user-attachments/assets/7e2f709b-03f8-44d7-b48f-cb7a2298050a">
+<img align="left" width="120" height="120" src="https://github.com/user-attachments/assets/95f47286-b0d4-4c4d-b788-46de13c40c53">
 <img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=153 width=0/>
 
 <h3>macOS Tahoe Support<br><sub>Available Now</sub></h3>
