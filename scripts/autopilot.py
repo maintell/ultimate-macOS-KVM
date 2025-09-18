@@ -203,7 +203,7 @@ projectVer = "Powered by ULTMOS v"+version
 if enableRPC == True:
    try:
       RPC.connect()
-      RPC.update(large_image="ultmos-g2",large_text=projectVer,details="AutoPilot",buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
+      RPC.update(large_image="ultmos-g3",large_text=projectVer,details="AutoPilot",buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
       cpydLog("ok","Discord rich presence connected")
    except:
       None
@@ -2335,8 +2335,8 @@ def autopilot():
       global osIcon
 
       osIcon = "ap-"+USR_TARGET_OS_NAME.lower().replace(" ","")
-      osIcon = "ap-"+USR_TARGET_OS_NAME.lower().replace(" beta","")
-      osIcon = osIcon+"-g2"   
+      osIcon = osIcon.replace(" beta","")
+      osIcon = osIcon+"-g3"   
       
       if int(USR_TARGET_OS) < 1013 and int(USR_TARGET_OS) >= 100:
          osIcon = "ap-legacy"
@@ -2490,7 +2490,7 @@ def autopilot():
          stage1()
 
       try: # DISCORD RPC
-         RPC.update(large_image="ultmos-g2",large_text=projectVer,details="AutoPilot",state="Selecting macOS version",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
+         RPC.update(large_image="ultmos-g3",large_text=projectVer,details="AutoPilot",state="Selecting macOS version",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
       except:
          None
 
@@ -2761,7 +2761,7 @@ def autopilot():
       clear()
 
       try: # DISCORD RPC
-         RPC.update(large_image="ultmos-g2",large_text=projectVer,details="AutoPilot",state="Naming their config file",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
+         RPC.update(large_image="ultmos-g3",large_text=projectVer,details="AutoPilot",state="Naming their config file",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
       except:
          None
 
