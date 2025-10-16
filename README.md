@@ -364,6 +364,8 @@ While I am the creator of these automation/ease-of-use scripts, this project is 
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Coopydood/ultimate-macOS-KVM&type=Date" />
  </picture>
 </a>
+<br><br>
+<p align="center"><b><i>1,000 stars achieved on the 16th October, 2025.</b></i></p>
 
 ***
 
