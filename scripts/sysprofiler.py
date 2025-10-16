@@ -420,6 +420,11 @@ if os.path.exists("./resources/dmg2img"):
 else:
     vfcBin = 0
 
+if os.path.exists("./internal1"):
+    internal = 1
+else:
+    internal = 0
+
 ovmfStore = []
 
 for x in os.listdir("./resources/ovmf/"):
@@ -472,6 +477,19 @@ elif upgraded == False:
     cpydProfile(("Upgraded   : NO"))
 else:
     cpydProfile(("Upgraded   : UNKNOWN"))
+
+
+
+if internal == True:
+    cpydProfile(("Internal   : YES"),True) #("+str(cloneVer)+")"),True)
+    warnings.append(("This ULTMOS setup appears to be an internal"))
+    warnings.append("development testing environment. woof!\n")
+
+elif internal == False:
+    cpydProfile(("Internal   : NO"))
+else:
+    cpydProfile(("Internal   : UNKNOWN"))
+
 cpydProfile((" \n"))
 cpydProfile("OPERATING SYSTEM")
 cpydProfile("────────────────────────────────────────────────────────")
