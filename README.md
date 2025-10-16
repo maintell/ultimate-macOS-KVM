@@ -13,7 +13,7 @@
 
 ***
 
-<center> <h3> ⭐ THANK YOU FOR 1,000 STARS! 💛</h3><p>Thank you so much for helping the project reach a massive <b>1,000 stars</b> - I'm humbled that my small project is helping so many people. It's thanks to <b>people like YOU</b> that give me the motivation to keep going!<br><br>Special thanks to all the <b>contributors of the project</b>, no matter how big or small - it's your milestone to celebrate as much as mine. Keep the pull requests coming!</center>
+<div align=center><h3> ⭐ THANK YOU FOR 1,000 STARS! 💛</h3><p>Thank you so much for helping the project reach a massive <b>1,000 stars</b> - I'm humbled that my small project is helping so many people. It's thanks to <b>people like YOU</b> that give me the motivation to keep going!<br><br>Special thanks to all the <b>contributors of the project</b>, no matter how big or small - it's your milestone to celebrate as much as mine. Keep the pull requests coming!</div>
 
 ***
 
