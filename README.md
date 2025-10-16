@@ -6,11 +6,14 @@
 
 <p align="center"><a href="https://github.com/Coopydood/ultimate-macOS-KVM/releases/latest"><b>What's new?</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://github.com/Coopydood/ultimate-macOS-KVM/tree/dev">Switch to dev branch... ⎋</a>
 
-<br>
 
 <div align=center><br>
 <a href="https://github.com/Coopydood/ultimate-macOS-KVM/releases/latest"><img src="https://img.shields.io/github/v/release/Coopydood/ultimate-macOS-KVM?style=for-the-badge&color=1793D1&logo=github&logoColor=white&label="></a> <a href="https://github.com/Coopydood/ultimate-macOS-KVM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Coopydood/ultimate-macOS-KVM?label=Licence&logo=unlicense&logoColor=white&style=for-the-badge"></a> <a href="https://github.com/Coopydood/ultimate-macOS-KVM"><img src="https://img.shields.io/github/repo-size/Coopydood/ultimate-macOS-KVM?color=07b55b&label=Size&logo=envoy-proxy&logoColor=white&style=for-the-badge"></a> <a href="https://discord.gg/WzWkSsT"> <img src="https://img.shields.io/discord/574943603466436628?color=7d86ff&label=Discord&logo=discord&logoColor=white&style=for-the-badge"></a>
 </div>
+
+***
+
+<center> <h3> ⭐ THANK YOU FOR 1,000 STARS! 💛</h3><p>Thank you so much for helping the project reach a massive <b>1,000 stars</b> - I'm humbled that my small project is helping so many people. It's thanks to <b>people like YOU</b> that give me the motivation to keep going!<br><br>Special thanks to all the <b>contributors of the project</b>, no matter how big or small - it's your milestone to celebrate as much as mine. Keep the pull requests coming!</center>
 
 ***
 
