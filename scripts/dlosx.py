@@ -562,7 +562,8 @@ def main():
             {"name": "Monterey (12.6)", "b": "Mac-B809C3757DA9BB8D", "m": "00000000000000000", "os_type": "latest", "short": "monterey"},
             {"name": "Ventura (13)", "b": "Mac-4B682C642B45593E", "m": "00000000000000000", "os_type": "latest", "short": "ventura"},
             {"name": "Sonoma (14) ", "b": "Mac-827FAC58A8FDFA22", "m": "00000000000000000", "os_type": "latest", "short": "sonoma"},
-            {"name": "Sequoia (15) ", "b": "Mac-937A206F2EE63C01", "m": "00000000000000000", "os_type": "latest", "short": "sequoia"}
+            {"name": "Sequoia (15) ", "b": "Mac-937A206F2EE63C01", "m": "00000000000000000", "os_type": "latest", "short": "sequoia"},
+            {"name": "Tahoe (26)   ", "b": "Mac-AF89B6D9451A490B", "m": "00000000000000000", "os_type": "latest", "short": "tahoe"}
     ]
 
     def clear(): print("\n" * 150)

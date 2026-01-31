@@ -1,12 +1,11 @@
-<p align="center"><a href="https://coopydood.github.io/ultimate-macOS-KVM"><img src="https://github.com/Coopydood/ultimate-macOS-KVM/blob/dev/resources/images/bannerAlphaBasicPortrait.png?raw=true" alt="Logo" width="250"/></a></p>
+<p align="center"><a href="https://coopydood.github.io/ultimate-macOS-KVM"><img src="https://github.com/Coopydood/ultimate-macOS-KVM/blob/dev/resources/images/ultmosBannerTextPortrait.png?raw=true" alt="Logo" width="250"/></a></p>
 
-<h2 align="center">v0.13.4</h2>
+<h2 align="center">v0.14.0</h2>
 
 <p align="center">Helping you build the ultimate macOS virtual machine, powered by KVM.</p>
 
 <p align="center"><a href="https://github.com/Coopydood/ultimate-macOS-KVM/releases/latest"><b>What's new?</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://github.com/Coopydood/ultimate-macOS-KVM/tree/dev">Switch to dev branch... ⎋</a>
 
-<br>
 
 <div align=center><br>
 <a href="https://github.com/Coopydood/ultimate-macOS-KVM/releases/latest"><img src="https://img.shields.io/github/v/release/Coopydood/ultimate-macOS-KVM?style=for-the-badge&color=1793D1&logo=github&logoColor=white&label="></a> <a href="https://github.com/Coopydood/ultimate-macOS-KVM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Coopydood/ultimate-macOS-KVM?label=Licence&logo=unlicense&logoColor=white&style=for-the-badge"></a> <a href="https://github.com/Coopydood/ultimate-macOS-KVM"><img src="https://img.shields.io/github/repo-size/Coopydood/ultimate-macOS-KVM?color=07b55b&label=Size&logo=envoy-proxy&logoColor=white&style=for-the-badge"></a> <a href="https://discord.gg/WzWkSsT"> <img src="https://img.shields.io/discord/574943603466436628?color=7d86ff&label=Discord&logo=discord&logoColor=white&style=for-the-badge"></a>
@@ -14,24 +13,20 @@
 
 ***
 
-<img align="left" width="120" height="120" src="https://github.com/user-attachments/assets/7e2f709b-03f8-44d7-b48f-cb7a2298050a">
+<div align=center><h3> ⭐ THANK YOU FOR 1,000 STARS! 💛</h3><p>Thank you so much for helping the project reach a massive <b>1,000 stars</b> - I'm humbled that my small project is helping so many people. It's thanks to <b>people like YOU</b> that give me the motivation to keep going!<br><br>Special thanks to all the <b>donors and contributors of the project</b>, no matter how big or small - it's your milestone to celebrate as much as mine. Keep the pull requests coming!</div>
+
+***
+
+<img align="left" width="120" height="120" src="https://github.com/user-attachments/assets/95f47286-b0d4-4c4d-b788-46de13c40c53">
 <img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=153 width=0/>
 
-<h3>macOS Tahoe Beta Support<br><sub>Available Now</sub></h3>
+<h3>macOS Tahoe Support<br><sub>Available Now</sub></h3>
 
-macOS Tahoe has not yet been tested extensively, but it has been **confirmed to install and boot with the current version of ULTMOS** on the latest macOS developer beta.
-
-<br>
-
-**AutoPilot now has an additional option for macOS Tahoe beta!** <br>Please feel free to try out the macOS Tahoe beta with ULTMOS and leave feedback on how it went! 
-
-However, you should **NOT** use macOS Tahoe as your main virtual setup - and should be used for test purposes only. You have been warned!
-
-You can download the latest recovery image below for use with AutoPilot. The file is hosted on the [Archive.org website](https://archive.org/details/macos-tahoe).
+macOS Tahoe has not yet been tested extensively, but it has been **confirmed to install and boot with the current version of ULTMOS** on the latest macOS release.
 
 <br>
 
-<p align="center"><a href="https://archive.org/download/macos-tahoe/Latest/BaseSystem.dmg"><img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/a8f1cb8f-5ddd-45cc-8598-032180035607" height="38"></a><br><sub> <b>BaseSystem.dmg</b> (1.4 GB)<br>Or, you can also download the <a href="https://archive.org/download/macos-tahoe/macos-tahoe_archive.torrent">torrent</a>.</sub></p>
+**AutoPilot now has an additional option for macOS Tahoe!** <br>Please feel free to try out the macOS Tahoe with ULTMOS and leave feedback on how it went! 
 
 
 ***
@@ -48,7 +43,7 @@ Scripts? Configs? QEMU arguments? A *"qcow"* file? *Moo?* If you need a little h
 <img src="https://github.com/user-attachments/assets/f7530bd9-fe3a-44b6-b913-45ffd097072b" alt="ultimate-macOS-KVM" width="1400"/>
 
 <br>
-<p align="center"><i>The latest macOS Tahoe developer beta running on ULTMOS.</i></p>
+<p align="center"><i>macOS Tahoe running on ULTMOS.</i></p>
 
 ***
 
@@ -56,7 +51,7 @@ Scripts? Configs? QEMU arguments? A *"qcow"* file? *Moo?* If you need a little h
 
 <ul>
 <li><b>Modern macOS Support <a href="https://github.com/Coopydood/ultimate-macOS-KVM/wiki/Supported-Guest-OSes">⎋</a></b></li> 
-Experience the latest macOS has to offer with built-in support from macOS High Sierra to macOS Sequoia! Even try what's next, now; with macOS Tahoe developer beta support!
+Experience the latest macOS has to offer with built-in support from macOS High Sierra to the latest macOS Tahoe!
 
 <li><b>AutoPilot <a href="https://github.com/Coopydood/ultimate-macOS-KVM/wiki/AutoPilot">⎋</a></b></li> 
 Automatically generates a valid, customised, and ready-to-use QEMU config script in seconds.
@@ -119,37 +114,6 @@ Here's a table with my best judgment on minimum, recommended, and best system re
 > [!NOTE]
 > The recommended and optimal specifications are for reference only.
 
-
-<details><summary><h4>macOS Guest Feature Support Matrix</h4></summary>
-
-|                          	| <img align="center" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/bd4a791d-1ac2-4a9a-8ee0-22e4d5f88cd3"> | <img align="center" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/184bb2ef-c447-4cbd-b07c-8b4b096e3944">     	| <img align="center" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/cd8029e8-c256-4295-9908-37809d64dcfe">     	| <img align="center" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/79a7a051-0f5a-419e-8544-b51b1572d3b9">     	| <img align="center" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/7d341cce-4370-4430-b3d5-bf1868afe4a3">     	| <img align="center" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/4829ebb4-ce7f-4ecf-8309-d691c9361f6b">     	| <img align="center" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/aa49b5ba-6cca-4dab-bcfc-6bf21909e738">      	| <img align="center" width="35" height="35" src="https://github.com/user-attachments/assets/7b9b72ee-5a89-49b4-ae17-7a188ed533ab">      	|
-|--------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:---------:|:---------:|
-|            **AutoPilot** 	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓    	|    ✓    	|
-|     **Auto<br>Download** 	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓    	|    ✓    	|
-|    **Online<br>Install** 	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓    	|    ✓    	|
-|   **Offline<br>Install** 	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓    	|    ✓    	|
-|       **QEMU<br>Script** 	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓¹   	|    ✓¹    	|    ✓¹    	|
-|      **Virt<br>Manager** 	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ?²  	|    ?²   	|    ?²   	|
-|   **GPU<br>Passthrough** 	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓¹   	|    ✓¹    	|    ✓¹    	|
-| **VirtIO<br>Networking** 	|    ✕   	|    ✕   	|    ?³   	|    ✓   	|    ✓   	|    ✓   	|    ✓    	|    ✓    	|
-| **VirtIO<br>Storage** 	|    ✕   	|    ✕   	|    ✓   	|    ✓   	|    ✓   	|    ✓   	|    ✓    	|    ✓    	|
-
-
-¹ <sup>If trying to boot macOS Ventura and later with GPU passthrough, you may need to do so using Virtual Machine Manager. The QEMU script may have issues with GPU passthrough.<sup>
-
-² <sup>macOS Ventura and later have been known to have issues booting    *without* GPU passthrough in Virtual Machine Manager.</sup>
-
-³ <sup>I have no idea whether or not VirtIO networking works on macOS Catalina.</sup>
-
-<br>
-
-> [!NOTE]
-> This table is a very **loose** representation of the current state of macOS versions and their support with ULTMOS / QEMU / KVM. It's more for reference and shouldn't be taken seriously.
->
-> If you find something is wrongly marked, please feel free to update it.
-</details>
-
-
 ***
 
 ## 📦》Dependencies
@@ -158,7 +122,7 @@ The project requires several other packages to function properly, while others c
 All of the dependencies, both required and optional, are listed below.
 
 > [!IMPORTANT]
-> The package names listed below are examples on an Arch-based system. Your distro may be different!
+> The package names listed below are examples on an Arch-based system. Your distribution may be different!
 
 <b>Required</b>
 <ul>
@@ -195,10 +159,10 @@ All of the dependencies, both required and optional, are listed below.
 
 Shocker; KVM is a module built into the *Linux kernel*, not **Windows Subsystem for Linux** or some UNIX-like terminal. You need a <ins>full install</ins> of at least base Linux **on your host**. Don't try any of that VM inception shenanigans.
 
-The easiest way to do this is by grabbing some mainstream Linux distro, like **Ubuntu, Linux Mint, Manjaro, EndeavourOS** - among many, many others. You can theoretically pick any one you like. *I use Arch BTW.*
+The easiest way to do this is by grabbing some mainstream Linux distribution, like **Ubuntu, Linux Mint, Manjaro, EndeavourOS** - among many, many others. You can theoretically pick any one you like. *I use Arch BTW.*
 
 > [!NOTE]
-> Testing of ULTMOS on different distrobutions is underway - but please note that is has been primarily developed and tested on **Arch** and **Debian**-based systems.
+> Testing of ULTMOS on different distributions is underway - but please note that is has been primarily developed and tested on **Arch** and **Debian**-based systems.
 
 ***
 
@@ -310,7 +274,7 @@ Any and all contributions are greatly appreciated and reviewed thoroughly, even 
 
 Here's a few screenshots showing **ultimate-macOS-KVM** in action!
 
-<img src="https://github.com/user-attachments/assets/76e935d0-4f37-4999-afe9-98d3fbf42673" width="90%"></img> <img src="https://github.com/user-attachments/assets/51f30f3a-2b77-4d31-b37b-4f1502f4cc64" width="45%"></img> <img src="https://github.com/user-attachments/assets/ac26b379-b22b-4935-9ca3-2700f939bb35" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/a7a60115-865a-4939-ab8f-e726a3d488a6" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/1802c1d2-7d35-4e70-9ab2-13820ef7e3a9" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/1fd0add5-c0c8-46a1-8897-3b80c37f98a1" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8380632b-dceb-41e7-acb0-b2bd15cbf575" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/b32c2701-a934-42ce-ab69-06b1ae350f1b" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/ee451491-35fa-436e-957b-888d2f7d488e" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/c4e394c3-a666-4aab-9aa7-b40b1e84d977" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/feb19dce-7a9a-4527-884c-8b2f2d445e2f" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/4a8b5249-3029-49d3-8539-229b3c179816" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/4e7678f3-5ee4-4e69-93a7-d9ba9881cea7" width="45%"></img>
+<img src="https://github.com/user-attachments/assets/76e935d0-4f37-4999-afe9-98d3fbf42673" width="90%"></img> <img src="https://github.com/user-attachments/assets/5ece9afc-56d3-42f0-90a3-b488cc45cfdc" width="45%"></img> <img src="https://github.com/user-attachments/assets/ac26b379-b22b-4935-9ca3-2700f939bb35" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/a7a60115-865a-4939-ab8f-e726a3d488a6" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/1802c1d2-7d35-4e70-9ab2-13820ef7e3a9" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/1fd0add5-c0c8-46a1-8897-3b80c37f98a1" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8380632b-dceb-41e7-acb0-b2bd15cbf575" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/b32c2701-a934-42ce-ab69-06b1ae350f1b" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/ee451491-35fa-436e-957b-888d2f7d488e" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/c4e394c3-a666-4aab-9aa7-b40b1e84d977" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/feb19dce-7a9a-4527-884c-8b2f2d445e2f" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/4a8b5249-3029-49d3-8539-229b3c179816" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/4e7678f3-5ee4-4e69-93a7-d9ba9881cea7" width="45%"></img>
 <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/dd012a63-415a-4b87-b096-feabdd3f8a5e" width="45%"></img> <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/32d2992d-a39a-4b34-976b-5e7ee5d5c926" width="45%"></img> 
 
 
@@ -383,7 +347,7 @@ While I am the creator of these automation/ease-of-use scripts, this project is 
 - **[Hyperchromiac](https://github.com/hyperchromiac)** 》 My personal constitution-munching American. Legend has it that I live in his attic, although even I'm not sure. Love this guy either way.
 - **[Kaz](https://github.com/Eaz11)** 》 Other than his brilliant English accent's pronunciations (including "macOS Syria"), he's done extensive testing. Say hi to your nephew for me.
 - **[GigantTech](https://twitter.com/TechGigant)** 》 Moderately annoying German guy that I convinced to install Linux subsequently letting him test my project. It's free real estate!
-- **[Hummenix](https://github.com/Hummenix)** 》Testing of ULTMOS across different Linux distros. 
+- **[Hummenix](https://github.com/Hummenix)** 》Testing of ULTMOS across different Linux distributions. 
 - **[CorpNewt](https://github.com/CorpNewt)** 》Creator of GenSMBIOS and many other Hackintosh essentials.
 - **[Acidanthera](https://github.com/Acidanthera)** 》The group behind OpenCore, Lilu, WhateverGreen, and MUCH more.
 - **[DarknessRafix]()** 》Extensive testing of the project and the author of some excellent ULTMOS guides! Oh, and was the very first person to install macOS Sequoia on ULTMOS - even before me.
@@ -400,9 +364,12 @@ While I am the creator of these automation/ease-of-use scripts, this project is 
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Coopydood/ultimate-macOS-KVM&type=Date" />
  </picture>
 </a>
+<br><br>
+<p align="center"><b><i>1,000 stars achieved on the 16th October, 2025.</b></i></p>
 
 ***
 
 <p align="center">
   <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/39d78d4b-8ce8-44f4-bba7-fefdbf2f80db" width="10%"> </img>
 </p>
+

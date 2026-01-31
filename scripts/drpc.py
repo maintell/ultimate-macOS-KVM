@@ -27,7 +27,7 @@ except:
 osVer = "Unknown"
 ptCount = 0
 show = "default"
-smolImage = "ultmoslite"
+smolImage = "ultmoslite-g3"
 
 parser = argparse.ArgumentParser("main")
 parser.add_argument("--os", dest="osVer",action="store")
@@ -93,7 +93,7 @@ if osOpt != "macos-highsierra" and osOpt != "macos-mojave" and osOpt != "macos-c
      osOpt = "macos-unknown" # arm large image to use the unknown asset if valid macOS version can't be detected
 
 if osName == "macOS Sequoia": osName = "macOS Sequoia"
-if osName == "macOS Tahoe": osName = "macOS Tahoe Developer Beta"
+if osName == "macOS Tahoe": osName = "macOS Tahoe"
 
 osName1 = osName
 
@@ -114,7 +114,7 @@ if show != "default":
 
 try:
     RPC.connect()
-    RPC.update(large_image="ultmos",large_text=projectVer,details="Loading...",buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
+    RPC.update(large_image="ultmos-g3",large_text=projectVer,details="Loading...",buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
 except:
     exit
 time.sleep(2)

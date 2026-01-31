@@ -71,7 +71,7 @@ latestOSVer = "26"
 runs = 0
 
 ###############################
-FEATURE_LEVEL = 11                   # DO NOT CHANGE - WILL BREAK THINGS!
+FEATURE_LEVEL = 12                   # DO NOT CHANGE - WILL BREAK THINGS!
 ###############################
 
 enableLog = True
@@ -203,7 +203,7 @@ projectVer = "Powered by ULTMOS v"+version
 if enableRPC == True:
    try:
       RPC.connect()
-      RPC.update(large_image="ultmos-g2",large_text=projectVer,details="AutoPilot",buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
+      RPC.update(large_image="ultmos-g3",large_text=projectVer,details="AutoPilot",buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
       cpydLog("ok","Discord rich presence connected")
    except:
       None
@@ -1080,7 +1080,7 @@ def autopilot():
       
       if USR_TARGET_OS >= 100 and USR_TARGET_OS <= 1012:
          print(color.YELLOW+"\n     ⚠"+color.END+color.BOLD+"   Download flow disabled for legacy versions.\n         You must download an image manually."+color.END)
-      elif USR_TARGET_OS >= 26 and USR_TARGET_OS <= 99:
+      elif USR_TARGET_OS >= 27 and USR_TARGET_OS <= 99:
          print(color.YELLOW+"\n     ⚠"+color.END+color.BOLD+"   Download flow disabled for beta versions.\n         You must download an image manually."+color.END)
 
 
@@ -1118,7 +1118,7 @@ def autopilot():
          blob.close()
          stage13()
       else:
-         if USR_TARGET_OS >= 26 and USR_TARGET_OS <= 1012:
+         if USR_TARGET_OS >= 27 and USR_TARGET_OS <= 1012:
             print(color.END+color.GRAY+"\n      1. Download from Apple..."+color.END)
             print(color.BOLD+"      2. Select existing...")
          else:
@@ -1138,7 +1138,7 @@ def autopilot():
             cpydLog("info",str("Requesting notice display"))
             showNotice()
 
-         if stageSelect == "1" and USR_TARGET_OS >= 100 and USR_TARGET_OS <= 1012 or stageSelect == "1" and USR_TARGET_OS >= 26 and USR_TARGET_OS <= 99:
+         if stageSelect == "1" and USR_TARGET_OS >= 100 and USR_TARGET_OS <= 1012 or stageSelect == "1" and USR_TARGET_OS >= 27 and USR_TARGET_OS <= 99:
             stage12()
          elif stageSelect == "1":
             cpydLog("info","Arming download mechanism")
@@ -2335,8 +2335,8 @@ def autopilot():
       global osIcon
 
       osIcon = "ap-"+USR_TARGET_OS_NAME.lower().replace(" ","")
-      osIcon = "ap-"+USR_TARGET_OS_NAME.lower().replace(" beta","")
-      osIcon = osIcon+"-g2"   
+      osIcon = osIcon.replace(" beta","")
+      osIcon = osIcon+"-g3"   
       
       if int(USR_TARGET_OS) < 1013 and int(USR_TARGET_OS) >= 100:
          osIcon = "ap-legacy"
@@ -2490,7 +2490,7 @@ def autopilot():
          stage1()
 
       try: # DISCORD RPC
-         RPC.update(large_image="ultmos-g2",large_text=projectVer,details="AutoPilot",state="Selecting macOS version",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
+         RPC.update(large_image="ultmos-g3",large_text=projectVer,details="AutoPilot",state="Selecting macOS version",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
       except:
          None
 
@@ -2504,39 +2504,39 @@ def autopilot():
       print("\n   "+color.BOLD+color.CYAN+"DEFAULT:",color.END+color.BOLD+"Monterey (12)",color.END)
       if customValue == 1:
          cpydLog("info",str("Custom value requested, setting up"))
-         print(color.END+"\n      1. Sequoia (15)")
-         print(color.END+"      2. Sonoma (14)")
-         print(color.END+"      3. Ventura (13)")
-         print(color.BOLD+"      4. Monterey (12)")
-         print(color.END+"      5. Big Sur (11)")
-         print(color.END+"      6. Catalina (10.15)")
-         print(color.END+"      7. Mojave (10.14)")
-         print(color.END+"      8. High Sierra (10.13)\n")
-
-         print(color.END+"      9. Tahoe beta (26)\n")
+         
+         print(color.END+"\n      1. Tahoe (26)")
+         print(color.END+"      2. Sequoia (15)")
+         print(color.END+"      3. Sonoma (14)")
+         print(color.END+"      4. Ventura (13)")
+         print(color.BOLD+"      5. Monterey (12)")
+         print(color.END+"      6. Big Sur (11)")
+         print(color.END+"      7. Catalina (10.15)")
+         print(color.END+"      8. Mojave (10.14)")
+         print(color.END+"      9. High Sierra (10.13)\n")
          
          print(color.END+"      10. Legacy versions...\n")
          
          customInput = str(input(color.BOLD+"Select> "+color.END))
          
          if customInput == "1":
-            customInput = 15
-         elif customInput == "2":
-            customInput = 14
-         elif customInput == "3":
-            customInput = 13
-         elif customInput == "4":
-            customInput = 12
-         elif customInput == "5":
-            customInput = 11
-         elif customInput == "6":
-            customInput = 1015
-         elif customInput == "7":
-            customInput = 1014
-         elif customInput == "8":
-            customInput = 1013
-         elif customInput == "9":
             customInput = 26
+         elif customInput == "2":
+            customInput = 15
+         elif customInput == "3":
+            customInput = 14
+         elif customInput == "4":
+            customInput = 13
+         elif customInput == "5":
+            customInput = 12
+         elif customInput == "6":
+            customInput = 11
+         elif customInput == "7":
+            customInput = 1015
+         elif customInput == "8":
+            customInput = 1014
+         elif customInput == "9":
+            customInput = 1013
          elif customInput == "10":
             customValue = 2
             stage2()
@@ -2761,7 +2761,7 @@ def autopilot():
       clear()
 
       try: # DISCORD RPC
-         RPC.update(large_image="ultmos-g2",large_text=projectVer,details="AutoPilot",state="Naming their config file",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
+         RPC.update(large_image="ultmos-g3",large_text=projectVer,details="AutoPilot",state="Naming their config file",start=sparkTime,buttons=([{"label": "View on GitHub", "url": "https://github.com/Coopydood/ultimate-macOS-KVM"}])) 
       except:
          None
 
